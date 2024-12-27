@@ -1,0 +1,69 @@
+{
+  "api_keys": {
+    "google_maps": "AIzaSyBq1Z0n1sSaAkN3wt0n1ssaak",
+    "stripe": "sk_live_51N3wt0n1sSaAkN3wt0n1ssaak"
+  },
+  "tokens": {
+    "oauth": "ya29.a0AfH6SMC...",
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "passwords": {
+    "admin": "P@ssw0rd123!",
+    "database": "mysecretpassword"
+  },
+  "database_credentials": {
+    "url": "postgres://user:password@localhost:5432/mydb"
+  },
+  "ssh_keys": {
+    "private": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAz6n3w...\n-----END RSA PRIVATE KEY-----"
+  },
+  "ssl_certificates": {
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDf...\n-----END PRIVATE KEY-----",
+    "certificate": "-----BEGIN CERTIFICATE-----\nMIIDXTCCAkWgAwIBAgIJAN3wt0n1sSaAkMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV\n...\n-----END CERTIFICATE-----"
+  },
+  "encryption_keys": {
+    "aes": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA=",
+    "rsa": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz6n3w..."
+  },
+  "cloud_service_keys": {
+    "aws": "AKIAIOSFODNN7EXAMPLE",
+    "google_cloud": "AIzaSyBq1Z0n1sSaAkN3wt0n1ssaak"
+  },
+  "ci_cd_secrets": {
+    "github_token": "ghp_1234567890abcdef",
+    "dockerhub_password": "mysecretpassword"
+  },
+  "personal_data": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890"
+  },
+  "financial_data": {
+    "credit_card": "4111 1111 1111 1111",
+    "bank_account": "1234567890"
+  },
+  "docker_secrets": {
+    "mysql_root_password": "mysecretpassword"
+  },
+  "kubernetes_secrets": {
+    "apiVersion": "v1",
+    "kind": "Secret",
+    "metadata": {
+      "name": "mysecret"
+    },
+    "data": {
+      "username": "YWRtaW4=",
+      "password": "MWYyZDFlMmU2N2Rm"
+    }
+  },
+  "iot_secrets": {
+    "device_key": "1234567890abcdef"
+  },
+  "blockchain_secrets": {
+    "private_key": "5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF"
+  },
+  "vpn_secrets": {
+    "username": "user",
+    "password": "password"
+  }
+}
